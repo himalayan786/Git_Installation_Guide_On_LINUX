@@ -34,10 +34,15 @@ Step18)	Go to the directory you have created on github.com
 	is only for 'commit' and push option on Github.com)
 
 Step19)	$git remote add		Directory_name_you've_created_On_GitHub.com	SSH_ADDRESS_Of_THAT_DIRECTORY_FROM_GitHub.com
-Step20)	$git push 	Directory_name_you've_created_On_GitHub.com	master
+Step20)	$git push 	File_You've_Creted_In_Your_Local_Git_Directory	master
 	(master indicates that you are working on the master brach of your local git.)
-
-
+	In case you get any rejection error, do $ git merge File_In_Your_Loca_Git/master
+	This will actually change your local file to your master branch.
+	
 
 These steps illustrate how to work on github and git USING LINUX.
+For more details related to Git go to
+1) http://gitready.com/beginner/2009/01/21/pushing-and-pulling.html
+2) http://gitref.org/remotes/
+Thank you for searching for this document.
 (STEPS ARE LISTED BY Er.KUNAL SHARMA)

@@ -1,0 +1,21 @@
+A File to show how to work on Git and GitHub(BASICS):
+Step1)	install git.
+Step2)	$git config --global user.name "USER_NAME"
+Step3)	$git config --global user.email "USER_EMAIL_ADDRESS"
+Step4)	$mkdir Any_Directory
+Step5)	$git init Any_Directory
+Step6)	$cd Ay_Directory
+Step7)	$git status
+Ste8)	Put anything in the Directory you have created by name "Any_Directory" and then follow the following steps.
+Step9)	$git add .
+Step10)	$git status
+Step11)	$git commit -m "Any_Message_You_Want_To_Pass_to_user_who_is_going_to_check_your_file"
+Step12)	$git log
+Step13)	$git diff
+Step14)	Now in the following steps we will genrate a public key to work online with github.com
+Step15)	$ssh-keygen -t rsa
+Step16)	To check the status of key you have generated:	$ssh git@github.com
+Step17) Now copy the key thus generated from .ssh/key.pub file and got to your account on github and create a repository over there
+	And then go to your account settings, ssh keys, and Add the key there by pasting the key you have created in .ssh/ .pub file
+	and giving a title to your key.
+These steps illustrate how to work on github and git USING LINUX.

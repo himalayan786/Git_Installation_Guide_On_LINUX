@@ -23,4 +23,4 @@ Step17) Now copy the key thus generated from .ssh/key.pub file and got to your a
 	And then go to your account settings, ssh keys, and Add the key there by pasting the key you have created in .ssh/ .pub file
 	and giving a title to your key.
 These steps illustrate how to work on github and git USING LINUX.
-(STEPS ARE LISTED BY Er.KUNAL SHARMA)
+(STEPS ARE LISTED BY Er. KUNAL SHARMA)
